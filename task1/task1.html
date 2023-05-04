@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <title>Homework #1</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname">
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="age">How old are you?</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <label for="birthdate">Full date of birth:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <br>
+        <label for="agreement">I accept the term of the agreement</label>
+        <input type="checkbox" id="agreement" name="agreement">
+    </fieldset>
+    <fieldset>
+        <legend>Registration</legend>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </fieldset>
+    <fieldset>
+        <legend>An interesting fact about you!</legend>
+        <label for="loveCats">Do you love cats?</label>
+        <input type="radio" id="catsYes" name="loveCats" value="yes">
+        <label for="html">Yes</label>
+        <input type="radio" id="catsNo" name="loveCats" value="no">
+        <label for="css">No</label>
+        <br>
+        <label for="color">What is your favorite color?</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <label for="bedtime">What time do you go to bed?</label>
+        <input type="time" id="bedtime" name="bedtime">
+        <br>
+        <label for="cars">What is your favorite brand of cars?</label>
+        <select id="cars" name="cars" size="4">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
+        </select>
+        <br>
+        <label for="workRating">How do you rate our work?</label>
+        <input type="range" min="1" max="100" value="1" id="workRating">
+    </fieldset>
+    <fieldset>
+        <legend>Additional info</legend>
+        <label for="comments">Comments:</label>
+        <textarea rows="2" cols="15" name="comments"></textarea>
+        <br>
+        <label for="recommendation">Would you recommend us?</label>
+        <select id="recommendation" name="recommendation">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+    </fieldset>
+    <input type="submit" name="submitForm" id="submitForm">
+    </form>
+</body>
+</html>
